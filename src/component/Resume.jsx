@@ -9,7 +9,7 @@ const Resume = () => {
  
     <img src="../images/Resume.png" alt="Resume" className="w-80 h-full mb-4 rounded-lg"/>
  
-    <a href="./assets/Prathamesh Bhumkr Resume.pdf" download>
+    <a href="../images/Prathamesh Bhumkr Resume.pdf" download>
       <button className="border-2 border-white  text-white  hover:bg-white hover:text-blue-950 py-2 px-6 rounded-md font-bold  transition duration-200">
         Download Resume
       </button>
