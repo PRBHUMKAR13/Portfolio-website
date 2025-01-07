@@ -9,7 +9,7 @@ const Home = () => {
 <div className="card flex p-4 align-middle my-24 ml-72">
 
   <div className="img ">
-    <img srcSet="../Profilepicture.png" alt="profile picture" className="w-60 rounded-full shadow-2xl transform transition hover:scale-110 hover:ring-4 hover:ring-cyan-500"/>
+    <img srcSet="../images/Profilepicture.png" alt="profile picture" className="w-60 rounded-full shadow-2xl transform transition hover:scale-110 hover:ring-4 hover:ring-cyan-500"/>
   </div>
 
   <div className="info flex-col text-gray-400 m-auto mx-5">
@@ -17,7 +17,7 @@ const Home = () => {
     </div>
     <div className="text-3xl">Software Engineer</div>
     <div className="text-lg text-gray-400 flex ">
-      <img srcSet="../icons8-degree-32.png" alt="degree image"  className="size-9 -rotate-45  "/>
+      <img srcSet="../images/icons8-degree-32.png" alt="degree image"  className="size-9 -rotate-45  "/>
     <span className="mt-1 text-yellow-400">
       Bachelor of Engineering- CSE
     </span>
@@ -45,11 +45,11 @@ const Home = () => {
     applications.</div>
 
   <div className="flex space-x-3 p-2">
-    <div><img srcSet="../a.jpg" alt="location" className="size-6 rounded-xl"/></div>
+    <div><img srcSet="../images/a.jpg" alt="location" className="size-6 rounded-xl"/></div>
     <div className="tracking-wide ...">Pune, Maharashtra</div>
   </div>
   <Link to="https://www.linkedin.com/in/prathameshbhumkar-5a8b26259" target="_blank" > <div className="flex space-x-3 p-2">
-   <div><img srcSet="../LinkedIn.png" alt="location" className="size-6 rounded-xl"/></div>
+   <div><img srcSet="../images/LinkedIn.png" alt="location" className="size-6 rounded-xl"/></div>
     <div className="italic underline underline-offset-4 hover:text-blue-700">www.linkedin.com/in/prathameshbhumkar-5a8b26259</div>
   </div></Link> 
 
