@@ -45,7 +45,7 @@ const Contact = () => {
     </p>
 
 
-    <form id="contact-form"  ref={formRef}
+    <form id="contact-form" data-netlify="true" method="POST"  name="contact" ref={formRef}
         onSubmit={handleSubmit} className=" bg-gradient-to-br from-sky-50 to-gray-200 p-8 rounded-lg shadow-lg w-full max-w-lg text-black">
       <div className="mb-4">
         <label htmlFor="name" className="block text-sm font-medium mb-1 ">Your Name</label>
