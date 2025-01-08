@@ -1,6 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import ProjectCard from './ProjectCard'
+
+
 const Project = () => {
     const project_info = [
       
@@ -21,22 +22,19 @@ const Project = () => {
         }
     ];
     return (
-        <div className='min-h-screen'>
-            <div className="flex flex-col items-center justify-center  text-gray-400">
-
-                <div className="text-5xl text-white my-12 text-center"> Here are My Projects</div>
-
-                <div className="flex flex-wrap justify-center gap-8 p-4 w-full max-w-8xl gap-y-10">
-                {project_info.map((project, index) => (
-                <ProjectCard key={index} project={project} />
+        <div className="min-h-screen">
+        <div className="flex flex-col items-center justify-center text-gray-400">
+          <h1 className="text-5xl text-white my-12 text-center">Here are My Projects</h1>
+  
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4 max-w-7xl mx-auto">
+            {project_info.map((project, index) => (
+              <ProjectCard key={index} project={project} />
             ))}
-               
-                
-                
-            </div>
-
-            </div>
+          </div>
         </div>
+      </div>
+                
+                
     )
 }
 
