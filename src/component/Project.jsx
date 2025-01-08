@@ -10,15 +10,15 @@ const Project = () => {
             description: "A deep learning-based project that uses computer vision techniques to control devices through hand gestures. It employs TensorFlow and OpenCV to recognize and interpret hand movements in real-time.",
             imageUrl: "../images/HandGesture UI.png",
             techStack: ["Python",  "OpenCV", "Deep Learning", "TensorFlow","Scikit-learn","CNN",  "Django"],
-            githubLink: "https://github.com/your-github-repo",
+            githubLink: " ",
             
         },  {
             title: "News App",
             description: "A React-based news app that fetches news articles from various categories like sports, entertainment, and business using a News API. Users can read the latest headlines, browse by category, and stay updated on current events.",
             imageUrl: "../images/NewsApp UI.png",
             techStack: ["ReactJS", "API Integration", "CSS", "Bootstrap", "Routing"],
-            githubLink: "https://github.com/your-github-repo",
-            liveDemoLink: "https://your-live-demo-link.com"
+            githubLink: " ",
+            liveDemoLink: " "
         }
     ];
     return (
